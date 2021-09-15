@@ -2,7 +2,7 @@ const path = require('path');
 const express = require('express');
 const morgan = require('morgan');
 const handlebars = require('express-handlebars');
-const methodOverride = require('method-override')
+const methodOverride = require('method-override');
 
 const route = require('./routes');
 const db = require('./config/db');
